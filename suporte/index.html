@@ -1,151 +1,118 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)http://getbootstrap.com/examples/carousel/ -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-   
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Renan Cunha - Suporte Técnico</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Renan Cunha - Suporte Técnico</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+<link href="./index_files/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="./index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<link href="./index_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./index_files/ie-emulation-modes-warning.js"></script>
+<script src="./index_files/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="./index_files/carousel.css" rel="stylesheet">
-	<style>
-
-
-
-	</style>
-  </head>
+<link href="./index_files/carousel.css" rel="stylesheet">
+<style>
+</style>
+</head>
 <!-- NAVBAR
-================================================== -->
+  ================================================== -->
   <body style="background-color:#90caf9;">
     <div class="navbar-wrapper">
       <div class="container">
-
         <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#001434;">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><b>Home</b></a>
-        </div>
-
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#contact">Contato</a></li>
-            <li><a href="https://br.linkedin.com/pub/renan-cunha/70/a11/31">LinkedIn </a></li>
-            <li><a href="http://renancunha33.com.br">Currículo</a></li>      
-			<li><a href="tabela.pdf">Tabela de Preços</a></li>			
-		</ul>
-        </div><!--/.nav-collapse -->
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><b>Home</b></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="https://br.linkedin.com/pub/renan-cunha/70/a11/31">LinkedIn </a></li>
+                <li><a href="http://renancunha33.com.br">Currículo</a></li>      
+                <li><a href="tabela.pdf">Tabela de Preços</a></li>			
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
-
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item">
+        <img class="first-slide" src="tecnologia-640x295.jpg" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Consultoria em informática</h1>
+            <h3>Para quem quer uma ajuda na hora de escoher um PC ou montar uma infra-estrutura em casa.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide" src="tecnologia_Pesquisa.jpg" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Atendimento no local</h1>
+            <h3>Sob condição de agendamento, você será atendido em sua casa por um técnico totalmente dedicado, experiente e paciente para entender e solucionar seu problema.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="item active">
+        <img class="third-slide" src="66150.jpg" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption vertical-center">
+            <i> <h1><big><b>Renan Cunha</b></big></h1>
+              <h3>Suporte técnico em informática</h3></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item">
-          <img class="first-slide" src="tecnologia-640x295.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Consultoria em informática</h1>
-			  <h3>Para quem quer uma ajuda na hora de escoher um PC ou montar uma infra-estrutura em casa.</h3>
-             
-            
-			</div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="tecnologia_Pesquisa.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Atendimento no local</h1>
-			  <h3>Sob condição de agendamento, você será atendido em sua casa por um técnico totalmente dedicado, experiente e paciente para entender e solucionar seu problema.</h3>
-              
-			  </div>
-          </div>
-        </div>
-        <div class="item active">
-          <img class="third-slide" src="66150.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption vertical-center">
-		<style="font-family:android;">
-             <i> <h1><big><b>Renan Cunha</b></big></h1>
-			  <h3>Suporte técnico em informática</h3></i>
-           </style>
-		   </div>
-          </div>
-        </div>
-      </div>
-     
-    </div><!-- /.carousel -->
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-	  <ul class="list-group">
+      <ul class="list-group">
         <li class="list-group-item"><center><h3 class="section-heading text-uppercase"><i><b>Principais Serviços</b></i></h3></center>
         </li>
         <li class="list-group-item">
-		<div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="linux-windows-hosting.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Formatação e Instalação</h2>
-		  <p>Formatamos seu sistema(seja ele Windows, Mac ou Linux). Alem disso fazemos instalação dos programas de acordo com a necessidade do cliente. Também mechemos com reset e atualização de smartphones (dependendo do aparelho)</p>
-          </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="pcgamer.jpg" alt="Generic placeholder image" width="140" height="140">
-          <h2>Instalação e manutenção de Hardware</h2>
-		  <p>Instalação de roteadores, peças de computador, periféricos e limpeza interna de gabinetes. Alem disso montamos seu PC do zero!(peças devem ser providenciadas pelo cliente)</p>
-          </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="duvida.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Resolução de problemas e dúvidas</h2>
-		  <p>Tiramos dúvidas relacionadas a tecnologia, sejam elas sobre PC ou Smartphones. Alem disso se você tiver algum problema com seu dispositivo (PC ou móvel), nós tentaremos resolver da melhor forma possível.</p>
-          </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="img-circle" src="linux-windows-hosting.png" alt="Generic placeholder image" width="140" height="140">
+              <h2>Formatação e Instalação</h2>
+              <p>Formatamos seu sistema(seja ele Windows, Mac ou Linux). Alem disso fazemos instalação dos programas de acordo com a necessidade do cliente. Também mechemos com reset e atualização de smartphones (dependendo do aparelho)</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="pcgamer.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h2>Instalação e manutenção de Hardware</h2>
+              <p>Instalação de roteadores, peças de computador, periféricos e limpeza interna de gabinetes. Alem disso montamos seu PC do zero!(peças devem ser providenciadas pelo cliente)</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="duvida.png" alt="Generic placeholder image" width="140" height="140">
+              <h2>Resolução de problemas e dúvidas</h2>
+              <p>Tiramos dúvidas relacionadas a tecnologia, sejam elas sobre PC ou Smartphones. Alem disso se você tiver algum problema com seu dispositivo (PC ou móvel), nós tentaremos resolver da melhor forma possível.</p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
         </li>
- </ul>
-
+      </ul>
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider" >
@@ -153,89 +120,56 @@
       <div class="content-section-a" >
 
         <div class="container">
-
-            <div class="row"  >
-                <div class="col-md-5 col-sm-6">
-                   
-                    <div class="clearfix"></div>
-					<a id="contact"> </a>
-                    <h3 class="section-heading text-uppercase"><b>Contatos<b></h3>
-                    <p class="lead">
-					<ul  class="list-group">
-					<li  class="list-group-item">
-					<b>Telefone/Whtasapp:</b> <br/>(13) 98870-0219<br/>
-					</li>
-					<li  class="list-group-item">
-					<b>Emails:</b>            <br/><a href="mailto:renan.cunha33@gmail.com">renan.cunha33@gmail.com</a><br/>
-					                   <a href="mailto:renan.cunha33@gmail.com">renan.cunha20@gmail.com</a><br/>
-									   Estamos no Vale Verde,Cubatão-SP.
-					</li>
-					</ul>
-					</p>
-					</div>
-                <div class="col-md-6 col-md-offset-1 col-sm-6" >
-                    <form action="mail.php" method="POST">
-                      <div class="form-group">
-					  <h3 class="section-heading text-uppercase"><b>Entre em contato por aqui:</b></h3>
-                        <label for="nome">Nome:</label>
-                        <input type="text" class="form-control" id="nome"  name="nome" placeholder="Digite seu nome">
-                      </div>
-                      <div class="form-group">
-                        <label for="email">E-mail:</label>
-                        <input type="email" class="form-control" id="email"  name="email" placeholder="Digite seu e-mail">
-                      </div>
-                      <div class="form-group">
-                        <label for="assunto">Assunto:</label>
-                        <input type="text" class="form-control" id="assunto"  name="assunto" placeholder="Digite o assunto da mensagem">
-                      </div>
-                      <label for="mensagem">Mensagem:</label>
-                      <textarea class="form-control" id="mensagem" rows="3"  name="mensagem" placeholder="Digite sua mensagem"></textarea>
-                      <br>
-
-                      <button type="submit" class="btn btn-primary pull-right">Enviar</button>
-					<p class="pull-right">&nbsp;</p>
-                      <button type="reset" class="btn btn-danger pull-right">Limpar</button>
-                    </form>
-                </div>
-            </div>
-
-        </div><!-- /.container -->
-    </div>
-
-      <!-- /END THE FEATURETTES -->
-
- <hr class="featurette-divider">
+            <div class="clearfix"></div>
+            <a id="contact"> </a>
+            <h3 class="section-heading text-uppercase"><b>Contatos<b></h3>
+            <p class="lead">
+              <ul  class="list-group">
+                <li  class="list-group-item">
+                  <b>Telefone/Whtasapp:</b> <br/>(13) 98870-0219<br/>
+                </li>
+                <li  class="list-group-item">
+                  <b>Emails:</b>            <br/><a href="mailto:renan.cunha33@gmail.com">renan.cunha33@gmail.com</a><br/>
+                  <a href="mailto:renan.cunha33@gmail.com">renan.cunha20@gmail.com</a><br/>
+                  Estamos no Vale Verde,Cubatão-SP.
+                </li>
+              </ul>
+            </p>
+      </div><!-- /.container -->
+      </div>
+      <hr class="featurette-divider">
       <!-- FOOTER -->
-       <footer>
+      <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li class="pull-right">
-                            <a href="index.html">Voltar ao topo</a>
-                        </li class="pull-left">
-						<li>
-						<p class="copyright text-muted small">Copyright &copy; <a href="http://hause.com.br/">Hause</a> 2016. Todos os direitos reservados.</p>
-               </li>
-                    </ul>
-                     </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list-inline">
+                <li class="pull-right">
+                  <a href="index.html">Voltar ao topo</a>
+                </li class="pull-left">
+                <li>
+                  <p class="copyright text-muted small">Copyright &copy; <a href="http://hause.com.br/">Hause</a> 2016. Todos os direitos reservados.</p>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-    </footer>
-
+      </footer>
     </div><!-- /.container -->
+  </body>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./index_files/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./index_files/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="./index_files/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
-  
+              <!-- Bootstrap core JavaScript
+              ================================================== -->
+              <!-- Placed at the end of the document so the pages load faster -->
+              <script src="./index_files/jquery.min.js"></script>
+              <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+              <script src="./index_files/bootstrap.min.js"></script>
+              <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+              <script src="./index_files/holder.min.js"></script>
+              <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+              <script src="./index_files/ie10-viewport-bug-workaround.js"></script>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg>
+</html>
